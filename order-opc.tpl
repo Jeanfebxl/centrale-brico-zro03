@@ -39,13 +39,13 @@
 
 		{include file="$tpl_dir./shopping-cart.tpl"}
 		<!-- End Shopping Cart -->
-		{* {if $is_logged AND !$is_guest}
+		{if $is_logged AND !$is_guest}
 			{include file="$tpl_dir./order-address.tpl"}
 		{else}
 			<!-- Create account / Guest account / Login block -->
 			{include file="$tpl_dir./order-opc-new-account.tpl"}
 			<!-- END Create account / Guest account / Login block -->
-		{/if} *}
+		{/if}
 		<!-- Carrier -->
 		{include file="$tpl_dir./order-carrier.tpl"}
 		<!-- END Carrier -->
